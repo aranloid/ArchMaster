@@ -1,12 +1,4 @@
-/**
- * /!\ This file is auto-generated.
- *
- * This is the entry point of your standalone application.
- *
- * There are multiple tags used by the editor to inject code automatically:
- *     - `wle:auto-imports:start` and `wle:auto-imports:end`: The list of import statements
- *     - `wle:auto-register:start` and `wle:auto-register:end`: The list of component to register
- */
+
 
 /* wle:auto-imports:start */
 import {AudioListener} from '@wonderlandengine/components';
@@ -57,3 +49,4 @@ engine.registerComponent(StartTestButton);
 engine.registerComponent(UIManager);
 /* wle:auto-register:end */
 }
+
