@@ -1,8 +1,6 @@
 import { Component, Property } from '@wonderlandengine/api';
 
-/**
- * load-dropper - Works with scene objects (no .bin files needed)
- */
+
 export class LoadDropper extends Component {
     static TypeName = 'load-dropper';
     static Properties = {
@@ -67,3 +65,4 @@ export class LoadDropper extends Component {
         console.log(`LoadDropper: Drop height set to ${this.dropHeight}m`);
     }
 }
+
