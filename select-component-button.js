@@ -1,19 +1,7 @@
 import { Component, Property } from '@wonderlandengine/api';
 import { CursorTarget } from '@wonderlandengine/components';
 
-/**
- * select-component-button
- *
- * Attach to a 3D button object (with:
- *  - collision
- *  - cursor-target
- *  - button
- * )
- *
- * When clicked, it:
- *  1) Tells ui-manager which component index is selected.
- *  2) Asks ui-manager to place that component via ComponentSpawner.
- */
+
 export class SelectComponentButton extends Component {
     static TypeName = 'select-component-button';
 
@@ -72,3 +60,4 @@ export class SelectComponentButton extends Component {
         this.uiManager.placeSelectedComponent();
     }
 }
+
