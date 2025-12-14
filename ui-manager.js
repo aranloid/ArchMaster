@@ -1,15 +1,4 @@
 import { Component, Property } from '@wonderlandengine/api';
-
-/**
- * ui-manager
- *
- * Handles:
- *  - Which bridge component type is selected
- *  - Ghost preview of the selected component
- *  - Placing build pieces via ComponentSpawner
- *  - Starting tests via SimulationController
- *  - Applying materials via MaterialManager
- */
 export class UIManager extends Component {
     static TypeName = 'ui-manager';
 
@@ -219,3 +208,4 @@ export class UIManager extends Component {
         this.simControllerComp.startSimulation(loadKind);
     }
 }
+
