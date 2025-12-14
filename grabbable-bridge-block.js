@@ -1,17 +1,7 @@
 import { Component, InputComponent } from '@wonderlandengine/api';
 import { CursorTarget } from '@wonderlandengine/components';
 
-/**
- * grabbable-bridge-block
- *
- * Attach to BUILD-phase bridge pieces (Beam_Build, Deck_Build, etc.).
- *
- * Behaviour:
- *  - Point at the block and press/hold trigger      -> block follows 3D cursor hit point
- *  - Release trigger                                -> block stops following and stays there
- *
- * Button index is hard-coded to 0 (trigger).
- */
+
 const GRAB_BUTTON_INDEX = 0;
 
 export class GrabbableBridgeBlock extends Component {
@@ -141,4 +131,5 @@ export class GrabbableBridgeBlock extends Component {
         this.grabInput = null;
         this._wasButtonPressed = false;
     }
+
 }
