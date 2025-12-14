@@ -1,15 +1,6 @@
 import { Component, Property } from '@wonderlandengine/api';
 import { CursorTarget } from '@wonderlandengine/components';
 
-/**
- * start-test-button
- *
- * Attach this to the same object that already has:
- *  - button (from button.js)
- *  - cursor-target (button.js will add it)
- *
- * When clicked, it asks ui-manager to start the simulation with a given load kind.
- */
 export class StartTestButton extends Component {
     static TypeName = 'start-test-button';
 
@@ -69,3 +60,4 @@ export class StartTestButton extends Component {
         this.uiManager.startTest(this.loadKind);
     }
 }
+
