@@ -1,13 +1,3 @@
-/**
- * /!\ This file is auto-generated.
- *
- * This is the entry point of your standalone application.
- *
- * There are multiple tags used by the editor to inject code automatically:
- *     - `wle:auto-constants:start` and `wle:auto-constants:end`: The project's constants,
- *        such as the project's name, whether it should use the physx runtime, etc...
- *     - `wle:auto-benchmark:start` and `wle:auto-benchmark:end`: Append the benchmarking code
- */
 
 import {loadRuntime} from '@wonderlandengine/api';
 
@@ -75,3 +65,4 @@ try {
 
 /* wle:auto-benchmark:start */
 /* wle:auto-benchmark:end */
+
