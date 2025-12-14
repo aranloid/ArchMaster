@@ -1,9 +1,6 @@
 import { Component, Property } from '@wonderlandengine/api';
 
-/**
- * simulation-controller
- * Orchestrates the switch from build -> runtime pieces and runs the load-drop test.
- */
+
 export class SimulationController extends Component {
     static TypeName = 'simulation-controller';
 
@@ -299,3 +296,4 @@ export class SimulationController extends Component {
         };
     }
 }
+
